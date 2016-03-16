@@ -1,9 +1,9 @@
 <?php 
 
 //connexion à la bdd
-//Recupération des variables
-//$icone = 
-
+//a remplacer par variables de sessions ? ou de bdd ? 
+$icone = "<img src='images/icone.png' title='test' >" ;
+$titre = "Expulsez la voisine Marie Carmen !" ;
 
 
 ?>
@@ -59,13 +59,13 @@
         <li>
 			<div id="icone">
 				<!-- placer ici l'icone, remplacer par la bonne  à mettre en php -->
-				<?php echo $mavariable ?><img src="images/icone.png" title="" >
+				<?php echo $icone ?>
 			</div>
         </li>
         <li>
 			<div id="consigne">
 			<!-- placer ici le titre/consigne de l'étape en php -->
-			<h1><?php echo $mavariable ?>Expulsez la voisine Marie Carmen !</h1>
+			<h1><?php echo $titre ?></h1>
 			</div>
         </li>
         </ul>
